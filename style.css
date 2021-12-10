@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header
+{
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.banner{
+    background-color: black;
+    height: 100vh;
+    padding: 40px 96px;
+}
+
+
+.site-menu li{
+    display: inline-block;
+    color: #fff;
+    padding:10px;
+    background-color: rgb(20, 19, 19);
+    width:300px;
+    text-align: center;
+    margin-right:15px;
+    font-size: 18px;
+    text-transform: uppercase ;
+}
+
+.btn li{
+    width:305px;
+    background-color: rgb(199, 13, 13);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+    padding:10px;
+   /* border: 2px solid white; */
+
+}
+
+
+.side-bar{
+    /* height: 50px; */
+    width:22%;
+    margin-top:60px;
+    /* background-color: #fff;; */
+    text-align: center;
+    color: #fff;
+}
+
+.side-bar p{
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+.offer{
+    padding: 8px;
+    color:#fff;
+    background-color: rgb(24, 101, 24);
+    border:none;
+    width: 120px;
+}
+.image{
+    width: 73%;
+    height: 550px;
+    background-image: url('./game-banner.jpeg');
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+    background-position: left;   
+     position: relative;
+     border: 2px solid white;
+   
+}
+
+.text{
+    position: absolute;
+    left:60.5%;
+    /* width: 408px; */
+    top: 10%;
+ 
+    /* background-color:#cdcd; */
+}
+
+.text p{
+    color:#fff;
+   font-size: 20px;
+   margin-top: 12px;
+   font-family: 'Roboto', sans-serif;
+}
+.text-btn{
+    margin-top: 12px;
+    width: 113px;
+    padding: 7px;
+    color: #fff;
+    background-color: rgb(199, 13, 13);
+    border: none;
+}
+.comp 
+{
+    text-align: center; 
+    
+    text-decoration: line-through rgba(120, 103, 9, 0.557);
+    margin-bottom: 34px;
+}
